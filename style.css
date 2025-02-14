@@ -13,6 +13,8 @@
     --color-slate-500: hsl(216, 15%, 48%);
     --color-slate-300: hsl(212, 45%, 89%);
     --color-white: hsl(0, 0%, 100%);
+
+    --shadow-card-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
   }
   
   body {
@@ -34,6 +36,7 @@
     justify-self: center;
     border-radius: 20px;
     background-color: var(--color-white);
+    box-shadow: var(--shadow-card-shadow);
   }
 
   img {
@@ -63,7 +66,7 @@
     letter-spacing: 0.2px;
   }
 
-  .attribution { 
+  /* .attribution { 
     font-size: 11px; 
     text-align: center;
     justify-self: flex-end;
@@ -72,7 +75,7 @@
 
   .attribution a { 
     color: hsl(228, 45%, 44%); 
-  }
+  } */
 
   
   
