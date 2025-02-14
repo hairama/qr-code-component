@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  :root {
+    --spacing-500: 40px;
+    --spacing-300: 24px;
+    --spacing-200: 16px;
+
+    --color-slate-900: hsl(218, 44%, 22%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-white: hsl(0, 0%, 100%);
+  }
+  
+  body {
+    background-color: var(--color-slate-300);
+    font-family: "Outfit", serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  .card__body {
+    width: 320px;
+    margin: auto;
+    padding: var(--spacing-200);
+    justify-self: center;
+    border-radius: 20px;
+    background-color: var(--color-white);
+  }
+
+  img {
+    width: 288px;
+    border-radius: 10px;
+  }
+
+  .card__text {
+    padding: 0 var(--spacing-200);
+    margin: var(--spacing-300) 0;
+
+  }
+
+  h1 {
+    margin: 0px;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    color: var(--color-slate-900);
+  }
+
+  p {
+    margin-top: var(--spacing-200);
+    color: var(--color-slate-500);
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+  }
+
+  .attribution { 
+    font-size: 11px; 
+    text-align: center;
+    justify-self: flex-end;
+    margin-bottom: var(--spacing-300);
+  }
+
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
+
+  
+  
